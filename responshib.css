@@ -1,0 +1,14 @@
+@media (max-width: 84em) {
+  .top {
+    max-width: 10rem;
+  }
+  .manu-section {
+    max-width: 10rem;
+  }
+}
+
+@media (max-width: 75) {
+  html {
+    font-size: 10%;
+  }
+}
