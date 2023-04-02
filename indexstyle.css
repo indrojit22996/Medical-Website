@@ -1,0 +1,501 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+/* **********************************
+       Hero Section
+       #f4b667
+    **********************************  */
+.top {
+  background: #f4b667 center center no-repeat fixed;
+  background-size: cover;
+}
+.manu-section {
+  display: grid;
+  grid-template-columns: 35fr 65fr;
+  justify-self: center;
+}
+.manu {
+  display: flex;
+  gap: 1.8rem;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  justify-content: space-around;
+  align-self: center;
+  padding: 1rem 0.5rem;
+  color: black;
+}
+.manu:hover {
+  color: #ffffff;
+
+  transition: all 0.2s;
+}
+.logo {
+  padding: 1rem 0.5rem;
+  margin-left: 4.8rem;
+}
+.hero-section {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+}
+.hero-heading {
+  font-family: sans-serif;
+  font-size: 5rem;
+  padding: 4.8rem;
+  padding-bottom: 2.4rem;
+}
+.hero-para {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  margin-left: 4.8rem;
+  margin-bottom: 1.2rem;
+}
+.button {
+  margin-left: 4.8rem;
+  margin-bottom: 1.8rem;
+  border: 2px solid black;
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border-radius: 25%;
+  text-decoration: none;
+  color: black;
+  background-color: azure;
+  overflow: hidden;
+}
+.button:hover {
+  border: 3px solid black;
+  box-shadow: 0px 10px 30px black;
+  background-color: #9d5901;
+  transition: all 2s;
+}
+
+.hero-img {
+  /* width: 40rem; */
+  margin-top: 4.8rem;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+/* **********************************
+            Our Service
+    **********************************  */
+.service-heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 6.8rem;
+}
+.main-heading {
+  color: #adb5bd;
+  font-size: 5.2rem;
+  font-family: sans-serif;
+  margin-left: 4.8rem;
+}
+.sub-heading {
+  color: #495057;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+}
+.heading-para {
+  color: #495057;
+  font-size: 1.2rem;
+  margin-left: 4.8rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+}
+.icon {
+  margin-top: 4.8rem;
+  width: 2.4rem;
+}
+.emergency {
+  padding: 2.4rem 2.4rem;
+  margin-left: 4.8rem;
+}
+.Doctors {
+  padding: 2.4rem 2.4rem;
+  margin-left: 4.8rem;
+}
+.Support {
+  padding: 2.4rem 2.4rem;
+  margin-left: 4.8rem;
+}
+.Health {
+  padding: 2.4rem 2.4rem;
+  margin-left: 4.8rem;
+}
+.emergengy-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.emergengy-link:hover {
+  color: #9d5901;
+  border-radius: 25%;
+  padding: 0.2rem 0.2rem;
+  box-shadow: 0px 10px 30px black;
+  transition: all 2s;
+}
+.emergency-para {
+  font-family: sans-serif;
+  color: #495057;
+}
+.emergency-heading {
+  font-family: sans-serif;
+  color: #495057;
+}
+.emergency:hover {
+  background-color: #ffe043f1;
+  border-radius: 15%;
+  overflow: hidden;
+  color: rgb(8, 0, 255);
+  box-shadow: 0px 10px 30px black;
+  transition: all 2s;
+}
+.Doctors:hover {
+  background-color: #ffe043f1;
+  border-radius: 15%;
+  overflow: hidden;
+  color: rgb(8, 0, 255);
+  box-shadow: 0px 10px 30px black;
+  transition: all 2s;
+}
+.Support:hover {
+  background-color: #ffe043f1;
+  border-radius: 15%;
+  overflow: hidden;
+  color: rgb(8, 0, 255);
+  box-shadow: 0px 10px 30px black;
+  transition: all 2s;
+}
+.Health:hover {
+  background-color: #ffe043f1;
+  border-radius: 15%;
+  overflow: hidden;
+  color: rgb(8, 0, 255);
+  box-shadow: 0px 10px 30px black;
+  transition: all 2s;
+}
+/* **********************************
+            Our Deperment
+    **********************************  */
+.deperment-heading {
+  color: #adb5bd;
+  font-size: 5.2rem;
+  font-family: sans-serif;
+  margin-left: 4.8rem;
+  margin-top: 4.8rem;
+}
+.drperment-subheading {
+  color: #495057;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+  font-weight: bold;
+}
+.deperment-menu-list {
+  display: flex;
+  list-style: none;
+  margin-left: 4.8rem;
+  margin-right: 4.8rem;
+  margin-top: 2.4rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+.deperment-menu-eliment:hover {
+  cursor: pointer;
+  color: #f4b667;
+}
+.deperment-button {
+  color: black;
+  padding: 0.5rem 1rem;
+  border: 2px solid #495057;
+  border-radius: 25%;
+  cursor: pointer;
+}
+.deperment-button:hover {
+  transition: all 1s;
+
+  background-color: #f4b667;
+}
+.deperment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.deperment-img {
+  margin-left: 10rem;
+  margin-top: 2.4rem;
+}
+.drperment-para {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2.8rem;
+  margin-top: 2.6rem;
+  margin-right: 3.8rem;
+  font-family: sans-serif;
+}
+.deperment-subpara {
+  margin-top: 1.8rem;
+  margin-right: 4.8rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+.deperment-button1 {
+  padding: 0.5rem 1rem;
+  border: 2px solid #495057;
+  border-radius: 25%;
+  margin-top: 3.6rem;
+  color: black;
+  /* background-color: #f4b667; */
+  overflow: hidden;
+  text-decoration: none;
+}
+.deperment-button1:hover {
+  transition: all 1s;
+
+  background-color: #f4b667;
+}
+
+/* **********************************
+            Our Doctors
+    **********************************  */
+.Doctor {
+  padding-top: 2.4rem;
+  margin-top: 4.8rem;
+  background-color: #f4b667;
+}
+.Doctors-part {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  justify-content: space-around;
+}
+.Doctors-heading {
+  font-family: sans-serif;
+  margin-top: 4.8rem;
+  font-size: 4.8rem;
+  margin-left: 4.8rem;
+  color: #000000;
+  font-weight: bold;
+}
+.Doctors-subheading {
+  margin-top: 2.4rem;
+  font-family: sans-serif;
+  font-size: 2.4rem;
+  margin-left: 4.8rem;
+  color: #000000;
+  font-weight: bold;
+}
+.Doctors-part-button {
+  margin-left: 70rem;
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  color: #000000;
+  font-family: sans-serif;
+  border: 2px solid black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25%;
+  text-decoration: none;
+  align-items: center;
+  overflow: hidden;
+}
+.Doctors-part-button:hover {
+  transition: all 1s;
+  background-color: #d18017;
+}
+
+.Doctors-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+  padding-bottom: 4.8rem;
+
+  /* display: block; */
+}
+.Doctors-img-1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 30px black;
+  transition: all 1s;
+}
+
+.Doctors-img-1 {
+  border-radius: 20%;
+}
+/* **********************************
+            Our Blog
+    **********************************  */
+.blog-heading {
+  font-family: sans-serif;
+  margin-left: 4.8rem;
+  font-size: 4.8rem;
+  color: #adb5bd;
+}
+.blog-subheading {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+  font-weight: bold;
+  color: #495057;
+}
+.blog-block {
+  display: flex;
+  margin-left: 4.8rem;
+  gap: 1.8rem;
+}
+.blog-h {
+  margin-top: 2.4rem;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+}
+.blog-sh {
+  margin-top: 1.4rem;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+.blog-read {
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #0ae633;
+  margin-bottom: 0.8rem;
+}
+.blog-img-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.blog-name {
+  margin-left: 2.4rem;
+}
+.blog {
+  margin-bottom: 4.4rem;
+}
+/* **********************************
+            Our Testimonial
+    **********************************  */
+.Testimonial {
+  padding: 0.01rem;
+  background-color: #f4b667;
+  /* border-radius: 5%; */
+}
+.Testimonial-h {
+  margin-top: 2.4rem;
+  font-family: sans-serif;
+  margin-left: 4.8rem;
+  font-size: 4.8rem;
+  color: #000000;
+  color: #adb5bd;
+}
+.Testimonial-sh {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+  font-weight: bold;
+  color: #495057;
+}
+.Testimonial-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+.Testimonial-sin {
+  font-size: 4.2rem;
+  margin-left: 4.8rem;
+}
+.Testimonial-para {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  width: 60%;
+  margin-left: 4.8rem;
+}
+.Testimonial-name {
+  margin-left: 4.8rem;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 3.2rem;
+}
+.Testimonial-img {
+  width: 30rem;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  z-index: -1;
+}
+/* .Testimonial-img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 30px black;
+  transition: all 1s;
+} */
+/* **********************************
+            Our Appointment
+    **********************************  */
+.Appointment-herding {
+  margin-top: 6.2rem;
+  font-family: sans-serif;
+  margin-left: 4.8rem;
+  font-size: 4.8rem;
+  color: #000000;
+  color: #adb5bd;
+}
+.Appointment-subherding {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 2.4rem;
+}
+.Appointment-box {
+  margin-top: 3.2rem;
+  padding-bottom: 2rem;
+  /* background-color: #9d5901; */
+  height: 20rem;
+  background-image: linear-gradient(to right bottom, #f4b667, #ffea83);
+}
+
+.Form {
+  margin-left: 4.8rem;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1.2rem;
+  /* column-gap: 2.4rem; */
+}
+.Select-con {
+  padding: 1rem;
+  width: 78%;
+}
+.Form input {
+  padding: 1rem;
+  width: 70%;
+}
+
+.Submit-btn {
+  margin-left: 37rem;
+  padding: 0.8rem;
+  border-radius: 25%;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
+}
+.Submit-btn:hover {
+  transition: all 1s;
+  background-color: #f4b667;
+}
