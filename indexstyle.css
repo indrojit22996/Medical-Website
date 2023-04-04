@@ -1,22 +1,29 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
 }
-/* manu/navbar */
+/*+++++++++++++
+ manu/navbar 
+ ++++++++++++*/
+.manu {
+  width: 100vw;
+}
 .nav-link:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #ffffff;
 }
 .nav-serch {
   font-size: 18px;
   margin-right: 18px;
   font-weight: 700;
 }
+.btn-outline:hover {
+  color: #ffffff;
+}
 .btn-serch {
-  border: 1px solid #fea1bf;
+  border: 1px solid #f4b667;
 }
 .manu-section {
-  background-color: #f4b667;
+  background-color: #cbe4de;
 }
 .nav-link {
   font-size: 18px;
@@ -26,29 +33,47 @@
 .navbar-nav {
   margin-left: 24px;
 }
-
-/* **********************************
-       Hero Section
-       #f4b667
-    **********************************  */
-
-/* .menu-section {
-  background: #f4b667 center center no-repeat fixed;
-  background-size: cover;
-} */
-/* .manu {
-  display: flex;
-  gap: 1.8rem;
-  text-decoration: none;
-  list-style: none;
-  font-family: sans-serif;
-  font-size: 1.8rem;
-  justify-content: space-around;
-  align-self: center;
-  padding: 1rem 0.5rem;
-  color: black;
-} */
-.manu:hover {
+.logo {
+  padding-right: 10%;
+}
+/*++++++++++++++++++++++++++++++++
+           Hero section 
+++++++++++++++++++++++++++++++++++*/
+.hero-bgc {
+  background-color: #f4b667;
+  width: 100vw;
+  height: 100vh;
+}
+.btn-outline-info {
+  background-color: #cbe4de;
+  color: #000000;
+  font-weight: 700;
+  border: 2px solid #000000;
+  margin-left: 5%;
+}
+.btn-outline-info:hover {
+  border: 2px solid #000000;
+  box-shadow: 0px 2px 10px black;
+  background-color: #9d5901;
+  transition: all 2s;
+}
+.main-content {
+  font-weight: bolder;
+}
+.display-1 {
+  margin-top: 10%;
+  line-height: 110%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.h5 {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+.hero-img {
+  margin-top: 30%;
+}
+/* .manu:hover {
   color: #ffffff;
 
   transition: all 0.2s;
@@ -72,7 +97,7 @@
   font-size: 1.6rem;
   margin-left: 4.8rem;
   margin-bottom: 1.2rem;
-}
+} */
 .button {
   margin-left: 4.8rem;
   margin-bottom: 1.8rem;
@@ -82,23 +107,22 @@
   border-radius: 25%;
   text-decoration: none;
   color: black;
-  background-color: azure;
+  background-color: #f0ffff;
   overflow: hidden;
 }
 .button:hover {
   border: 3px solid black;
   box-shadow: 0px 10px 30px black;
   background-color: #9d5901;
-  transition: all 2s;
 }
 
-.hero-img {
-  /* width: 40rem; */
+/* .hero-img {
+  width: 40rem;
   margin-top: 4.8rem;
   height: 400px;
   display: flex;
   justify-content: flex-start;
-}
+} */
 /* **********************************
             Our Service
     **********************************  */
