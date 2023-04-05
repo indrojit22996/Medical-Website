@@ -1,3 +1,12 @@
+/* 
+font-family: 'Kanit', sans-serif;       for heading
+font-family: 'Noto Sans', sans-serif;   for para
+#f4b667
+#cbe4de
+#9d5901
+#B9E9FC
+ */
+
 * {
   padding: 0;
   margin: 0;
@@ -57,14 +66,42 @@
   background-color: #9d5901;
   transition: all 2s;
 }
-.main-content {
-  font-weight: bolder;
-}
 .display-1 {
   margin-top: 10%;
   line-height: 110%;
   margin-bottom: 5%;
   margin-left: 5%;
+  font-family: "Kanit", sans-serif;
+}
+.main-content {
+  color: #b9e9fc;
+}
+.hero-icon {
+  margin-left: 15%;
+}
+
+.typewriter {
+  width: 21.5ch;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 1s step-start infinite, text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #212121;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 21.5ch;
+  }
 }
 .h5 {
   margin-bottom: 5%;
