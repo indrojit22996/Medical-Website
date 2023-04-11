@@ -14,11 +14,14 @@ font-family: 'Noto Sans', sans-serif;   for para
 /*+++++++++++++
  manu/navbar 
  ++++++++++++*/
+.logo-icon {
+  color: #009750;
+}
 .manu {
   width: 100vw;
 }
 .nav-link:hover {
-  border-bottom: 4px solid #ffffff;
+  border-bottom: 4px solid #000000;
 }
 .nav-serch {
   font-size: 18px;
@@ -32,7 +35,7 @@ font-family: 'Noto Sans', sans-serif;   for para
   border: 1px solid #f4b667;
 }
 .manu-section {
-  background-color: #cbe4de;
+  background-color: #ffffff;
 }
 .nav-link {
   font-size: 18px;
@@ -121,6 +124,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 .servive-subheading {
   color: #adb5bd;
   font-family: "Noto Sans", sans-serif;
+  margin-top: -2%;
 }
 .servive-subheading:hover {
   transform: translateY(-10px);
@@ -151,156 +155,104 @@ font-family: 'Noto Sans', sans-serif;   for para
 /* .fa-solid {
   color: #cbe4de;
 } */
-
-/* **********************************
+/* ++++++++++++++++++++++++++++++++++
             Our Deperment
-    **********************************  */
-.deperment-heading {
-  color: #adb5bd;
-  font-size: 5.2rem;
-  font-family: sans-serif;
-  margin-left: 4.8rem;
-  margin-top: 4.8rem;
-}
-.drperment-subheading {
-  color: #495057;
-  font-size: 2.4rem;
-  font-family: sans-serif;
-  margin-top: 1.8rem;
-  margin-left: 4.8rem;
-  font-weight: bold;
-}
-.deperment-menu-list {
-  display: flex;
-  list-style: none;
-  margin-left: 4.8rem;
-  margin-right: 4.8rem;
-  margin-top: 2.4rem;
-  justify-content: space-between;
-  align-items: center;
-  font-family: sans-serif;
-  font-size: 1.6rem;
-}
-.deperment-menu-eliment:hover {
-  cursor: pointer;
-  color: #f4b667;
-}
-.deperment-button {
-  color: black;
-  padding: 0.5rem 1rem;
-  border: 2px solid #495057;
-  border-radius: 25%;
-  cursor: pointer;
-}
-.deperment-button:hover {
-  transition: all 1s;
-
+  +++++++++++++++++++++++++++++++++++*/
+.deperment-hero {
   background-color: #f4b667;
+  width: 100vw;
+  height: 124vh;
 }
-.deperment-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.deperment-heading {
+  padding-top: 2%;
+  font-family: "Kanit", sans-serif;
+  color: #ffffff;
+}
+
+.deperment-subheading {
+  color: #495057;
+  margin-top: -2%;
+  font-family: "Noto Sans", sans-serif;
+}
+.deperment-subheading:hover {
+  transform: translateY(-10px);
+  transition: all 1s;
+  color: #ffffff;
+}
+.deperment-menu {
+  margin-top: 2%;
+}
+.determent-menu-eliment {
+  font-size: 24px;
+  font-family: "Kanit", sans-serif;
+}
+.determent-menu-eliment:hover {
+  color: #ffffff;
+}
+.btn-outline-secondary {
+  color: #000000;
+  font-size: 20px;
+}
+.btn-outline-secondary:hover {
+  border: 1px solid #8d7b68;
+  transition: all 1s;
+  background-color: #f4b667;
 }
 .deperment-img {
-  margin-left: 10rem;
-  margin-top: 2.4rem;
+  margin-top: 4%;
 }
 .drperment-para {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 2.8rem;
-  margin-top: 2.6rem;
-  margin-right: 3.8rem;
-  font-family: sans-serif;
-}
-.deperment-subpara {
-  margin-top: 1.8rem;
-  margin-right: 4.8rem;
-  font-size: 1.2rem;
-  font-family: sans-serif;
-}
-.deperment-button1 {
-  padding: 0.5rem 1rem;
-  border: 2px solid #495057;
-  border-radius: 25%;
-  margin-top: 3.6rem;
-  color: black;
-  /* background-color: #f4b667; */
-  overflow: hidden;
-  text-decoration: none;
-}
-.deperment-button1:hover {
-  transition: all 1s;
-
-  background-color: #f4b667;
-}
-
-/* **********************************
-            Our Doctors
-    **********************************  */
-.Doctor {
-  padding-top: 2.4rem;
-  margin-top: 4.8rem;
-  background-color: #f4b667;
-}
-.Doctors-part {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
-  display: flex;
-  justify-content: space-around;
-}
-.Doctors-heading {
-  font-family: sans-serif;
-  margin-top: 4.8rem;
-  font-size: 4.8rem;
-  margin-left: 4.8rem;
-  color: #000000;
+  margin-top: 8%;
   font-weight: bold;
+  font-family: "Kanit", sans-serif;
 }
-.Doctors-subheading {
-  margin-top: 2.4rem;
-  font-family: sans-serif;
-  font-size: 2.4rem;
-  margin-left: 4.8rem;
-  color: #000000;
-  font-weight: bold;
+.drperment-subpara {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 28px;
 }
-.Doctors-part-button {
-  margin-left: 70rem;
-  margin-top: 2.4rem;
-  font-size: 1.2rem;
-  color: #000000;
-  font-family: sans-serif;
-  border: 2px solid black;
-  padding: 0.6rem 1.2rem;
-  border-radius: 25%;
-  text-decoration: none;
-  align-items: center;
-  overflow: hidden;
+.read-btn {
+  margin-top: 6%;
 }
-.Doctors-part-button:hover {
-  transition: all 1s;
-  background-color: #d18017;
+/* ++++++++++++++++++++++++++++++++++
+            Our Doctor
+  +++++++++++++++++++++++++++++++++++*/
+.doctor-heading {
+  color: #495057;
+  font-family: "Kanit", sans-serif;
 }
-
-.Doctors-img {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 4.8rem;
-  margin-bottom: 4.8rem;
-  padding-bottom: 4.8rem;
-
-  /* display: block; */
+.doctor-subheading {
+  color: #adb5bd;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: -2%;
 }
-.Doctors-img-1:hover {
+.doctor-subheading:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 10px 30px black;
   transition: all 1s;
+  color: #495057;
 }
 
-.Doctors-img-1 {
-  border-radius: 20%;
+.btn-outline-secondary {
+  color: #000000;
+  font-size: 20px;
 }
+.btn-outline-secondary:hover {
+  border: 1px solid #8d7b68;
+  transition: all 1s;
+  background-color: #f4b667;
+}
+.doctor-btn {
+  margin-right: 9%;
+}
+.doctor-card:hover {
+  transform: translateY(-10px);
+  /* transform: rotate(360deg); */
+  box-shadow: 0px 10px 40px black;
+  transition: all 1s;
+}
+.doctor-hov {
+  margin-top: 4%;
+}
+
 /* **********************************
             Our Blog
     **********************************  */
