@@ -294,7 +294,7 @@ font-family: 'Noto Sans', sans-serif;   for para
   margin-top: 12%;
 }
 /* ++++++++++++++++++++++++++++++++++
-            Our Blog
+            Our Testimonial
   +++++++++++++++++++++++++++++++++++*/
   .testimonial-heading {
     color: #495057;
@@ -326,9 +326,39 @@ font-family: 'Noto Sans', sans-serif;   for para
     background-color: #f4b667;
     border-radius: 80%;
   }
-
-
-
+  /* ++++++++++++++++++++++++++++++++++
+            Our Appointment
+  +++++++++++++++++++++++++++++++++++*/
+  .appoinment {
+    background-color: #f4b667;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 5%;
+  }
+  .appoinment-heading {
+    padding-top: 2%;
+    font-family: "Kanit", sans-serif;
+    color: #ffffff;
+  }
+  
+  .appoinment-subheading {
+    color: #495057;
+    margin-top: -2%;
+    font-family: "Noto Sans", sans-serif;
+  }
+  .appoinment-subheading:hover {
+    transform: translateY(-10px);
+    transition: all 1s;
+    color: #ffffff;
+  }
+.input-sec{
+  margin-top: 4%;
+}
+.btn-light{
+  margin-top: 5%;
+  text-align: center;
+  margin-left: 43%;
+}
 
 /* **********************************
             Our Appointment
