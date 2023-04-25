@@ -359,5 +359,37 @@ font-family: 'Noto Sans', sans-serif;   for para
   text-align: center;
   margin-left: 43%;
 }
-
-
+  /* ++++++++++++++++++++++++++++++++++
+           Footer Section
+  +++++++++++++++++++++++++++++++++++*/
+footer{
+    background-color: #f4b667;
+    margin-top: 10%;
+  }
+  .footer-span{
+    color: #ffffff;
+  }
+.footer-hrading{
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+}
+.footer-icon{
+  margin-left: 2%;
+}
+.icon-cont{
+  margin-top: 12%;
+}
+.footer-img{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 20vw;
+}
+.footer-subheading{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 90%;
+  color: #ffffff;
+}
+.footer-text{
+  font-size: 12px;
+}
