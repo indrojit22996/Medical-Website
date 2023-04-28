@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Left Side */
+.logo-link{
+  text-decoration: none;
+  color: #009750;
+}
+.logo-cont {
+  color: #009750;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.left-cont {
+  background-color: #f4b667;
+  height: 120vh;
+}
+.main-heading{
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+.sub-heading{
+  font-family: "Noto Sans", sans-serif;
+  /* font-size: 20px; */
+}
+.carousel-contai{
+  margin-top: 50%;
+}
+.slide-cont{
+  background-color: #cda672;
+}
+/* Right Side */
+.heading-acc{
+  margin: 4%;
+  margin-left: 60%;
+}
+.singin-link{
+  text-decoration: none;
+  color: #f4b667;
+}
+
+.btn-outline-warning:hover{
+color: black;
+background-color: #f4b667;
+}
