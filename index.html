@@ -66,17 +66,7 @@
                   <a class="nav-link active" href="#footer">Contact Us</a>
                 </li>
               </ul>
-              <!-- <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2 btn-serch"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="btn nav-serch btn-outline " type="submit">
-                  Search
-                </button>
-              </form> -->
+             
               <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                   <a
@@ -89,7 +79,7 @@
                     LOGIN<i class="fa-solid fa-arrow-right-to-bracket"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#" target="_blank">Sing in</a></li>
+                    <li><a class="dropdown-item" href="singin.html" target="_blank">Sing in</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a class="dropdown-item" href="singup.html" target="_blank">Sing Up</a>
@@ -114,8 +104,8 @@
                     For Us<i class="fa-brands fa-medrt fa-beat fa-2xs hero-icon" style="color: #B9E9FC;"></i></div>
                 </div>
                   <div class="h5 container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam molestias dolorem aliquid et mollitia, commodi, sit iure necessitatibus eveniet, vero optio ex nisi reprehenderit tenetur!</div>
-                  <button type="button" class="btn btn-outline-info">Know More</button>
-                  <button type="button" class="btn btn-outline-info btn-lg">Requse to Call</button>
+                  <a href="#" class="btn btn-outline-info" target="_blank">Know More</a>
+                  <button type="button" class="btn btn-outline-info btn-lg request-btn">Requse to Call</button>
               </div>
               <div class="col text-center"> <div class="hero-img">
                 <img
@@ -131,6 +121,56 @@
           </div>
         </section>
       </header>
+       <!-- ========================================
+                      Request to call popup Section
+          ========================================= -->
+          <section class="request-hidden request-call-cont rounded">  
+            <div class="container">
+            <button class="request-call-close float-end btn"><i class="fa-solid fa-xmark fa-xl"></i></button>
+            <div class="container"><h1>Have question about the any Doctor and Appoinment  </h1>
+              </div>
+              <div class="alert alert-success" role="alert">
+               This request only for Crucial Information
+              </div>
+              <div class="container"><p>Let us help you understand the whole process of book a appoinment for a perticular Doctor. Someone form our team will contact you with in 24 hours.   </p>
+              </div>
+              <div class="col name-con">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputname"
+                  placeholder="Indrojit Bhaduri"
+                />
+              </div>
+              <div class="col email-con">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="indr@xyz.com"
+                />
+              </div>
+              <div class="col Phone-con">
+                <label for="inputEmail4" class="form-label">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="inputphone"
+                  placeholder="+91"
+                />
+              </div>
+             
+              <div class="d-grid gap-2">
+                
+                <button class="btn btn-outline-ligth Callback-btn" type="button">Request Callback</button>
+              </div>
+           
+        </div></section>
+          <!-- ========================================
+                    Know More popup Section
+          ========================================= -->
       
         <!-- ========================================
                       Our Service Section
