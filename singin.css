@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo-link{
+  text-decoration: none;
+  color: #009750;
+}
+.logo-cont {
+  color: #009750;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.singup-cont{
+  margin-top: 10%;
+}
+.heading-acc{
+  margin-left:60%;
+}
+.singin-cont{
+  height: 55vh;
+  width: 45vw;
+  margin-left: 30%;
+}
+.email-con,.check-cont{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.or{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.fa-google,.fa-microsoft{
+  margin-top: 2%;
+}
