@@ -62,6 +62,7 @@ font-family: 'Noto Sans', sans-serif;   for para
   font-weight: 700;
   border: 2px solid #000000;
   margin-left: 7%;
+  margin-bottom: 2%;
 }
 .btn-outline-info:hover {
   border: 2px solid #ffffff;
@@ -85,7 +86,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 }
 
 .typewriter {
-  width: 21.5ch;
+  width: 15ch;
   white-space: nowrap;
   overflow: hidden;
   border-right: 4px solid #212121;
@@ -95,7 +96,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 @keyframes cursor {
   0%,
   100% {
-    border-color: #212121;
+    border-color: #b9e9fc;
   }
 }
 
@@ -104,7 +105,7 @@ font-family: 'Noto Sans', sans-serif;   for para
     width: 0;
   }
   100% {
-    width: 21.5ch;
+    width: 15ch;
   }
 }
 .h5 {
@@ -125,6 +126,7 @@ font-family: 'Noto Sans', sans-serif;   for para
   padding: 2%;
   height: 85vh;
   width: 65vw;
+  overflow: scroll;
 
 }
 .request-call-close{
@@ -138,6 +140,51 @@ font-family: 'Noto Sans', sans-serif;   for para
 .request-hidden{
   display: none;
 }
+/*++++++++++++++++++++++++++++++++
+   Know more popup section 
+++++++++++++++++++++++++++++++++++*/
+.knowmore-cont{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  background-color: #fff;
+  padding: 2%;
+  height: 65vh;
+  width: 50vw;
+  overflow: scroll;
+}
+.testimonial-suncont-1{
+  background-color: #FCC8D1;
+  margin-bottom: 1%;
+}
+.testimonial-suncont-2{
+  background-color: #FEE8B0;
+  margin-bottom: 1%;
+}
+.testimonial-suncont-3{
+  background-color: #98DFD6;
+  margin-bottom: 1%;
+}
+.comma{
+  width: 2%;
+}
+.testimonial-img{
+  /* border-radius: 30%; */
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 30%;
+  margin-top: 10%;
+}
+.knowmore-close{
+  margin-top: 2%;
+}
+.knowmore-heading{
+  color: #19A7CE;
+  margin-bottom: 2%;
+}
+.know-hidden{
+  display: none;
+}
+
 /* ++++++++++++++++++++++++++++++++++
             Our Service  
   +++++++++++++++++++++++++++++++++++*/
