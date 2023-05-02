@@ -121,7 +121,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 .request-call-cont {
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 18%;
   background-color: #b9e9fc;
   padding: 2%;
   height: 85vh;
@@ -144,7 +144,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 .knowmore-cont {
   position: absolute;
   top: 10%;
-  left: 10%;
+  left: 18%;
   background-color: #fff;
   padding: 2%;
   height: 75vh;
