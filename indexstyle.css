@@ -118,7 +118,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 /*++++++++++++++++++++++++++++++++
    Request call back popup section 
 ++++++++++++++++++++++++++++++++++*/
-.request-call-cont{
+.request-call-cont {
   position: absolute;
   top: 10%;
   left: 20%;
@@ -127,61 +127,59 @@ font-family: 'Noto Sans', sans-serif;   for para
   height: 85vh;
   width: 65vw;
   overflow: scroll;
-
 }
-.request-call-close{
+.request-call-close {
   padding: 1%;
-
 }
-.Callback-btn{
+.Callback-btn {
   margin-top: 4%;
 }
 
-.request-hidden{
+.request-hidden {
   display: none;
 }
 /*++++++++++++++++++++++++++++++++
    Know more popup section 
 ++++++++++++++++++++++++++++++++++*/
-.knowmore-cont{
+.knowmore-cont {
   position: absolute;
   top: 10%;
-  left: 20%;
+  left: 10%;
   background-color: #fff;
   padding: 2%;
-  height: 65vh;
-  width: 50vw;
+  height: 75vh;
+  width: 65vw;
   overflow: scroll;
 }
-.testimonial-suncont-1{
-  background-color: #FCC8D1;
+.testimonial-suncont-1 {
+  background-color: #fcc8d1;
   margin-bottom: 1%;
 }
-.testimonial-suncont-2{
-  background-color: #FEE8B0;
+.testimonial-suncont-2 {
+  background-color: #fee8b0;
   margin-bottom: 1%;
 }
-.testimonial-suncont-3{
-  background-color: #98DFD6;
+.testimonial-suncont-3 {
+  background-color: #98dfd6;
   margin-bottom: 1%;
 }
-.comma{
+.comma {
   width: 2%;
 }
-.testimonial-img{
+.testimonial-img {
   /* border-radius: 30%; */
   border-top-left-radius: 10%;
   border-bottom-right-radius: 30%;
   margin-top: 10%;
 }
-.knowmore-close{
+.knowmore-close {
   margin-top: 2%;
 }
-.knowmore-heading{
-  color: #19A7CE;
+.knowmore-heading {
+  color: #19a7ce;
   margin-bottom: 2%;
 }
-.know-hidden{
+.know-hidden {
   display: none;
 }
 
@@ -367,100 +365,100 @@ font-family: 'Noto Sans', sans-serif;   for para
 /* ++++++++++++++++++++++++++++++++++
             Our Testimonial
   +++++++++++++++++++++++++++++++++++*/
-  .testimonial-heading {
-    color: #495057;
-    font-family: "Kanit", sans-serif;
-  }
-  .testimonial-subheading {
-    color: #adb5bd;
-    font-family: "Noto Sans", sans-serif;
-    margin-top: -2%;
-  }
-  .testimonial-subheading:hover {
-    transform: translateY(-10px);
-    transition: all 1s;
-    color: #495057;
-  }
-  .Testimonial-img { 
-    border-radius: 10%;
-  }
-  .testimonial-text{
-    margin-top: 8%;
-    font-family: "Noto Sans", sans-serif;
-    /* margin-top: -2%; */
-  }
-  .testimonial-head{
-    font-family: "Kanit", sans-serif;
-    margin-top: 5%;
-  }
-  .testimonial-btn{
-    background-color: #f4b667;
-    border-radius: 80%;
-  }
-  /* ++++++++++++++++++++++++++++++++++
+.testimonial-heading {
+  color: #495057;
+  font-family: "Kanit", sans-serif;
+}
+.testimonial-subheading {
+  color: #adb5bd;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: -2%;
+}
+.testimonial-subheading:hover {
+  transform: translateY(-10px);
+  transition: all 1s;
+  color: #495057;
+}
+.Testimonial-img {
+  border-radius: 10%;
+}
+.testimonial-text {
+  margin-top: 8%;
+  font-family: "Noto Sans", sans-serif;
+  /* margin-top: -2%; */
+}
+.testimonial-head {
+  font-family: "Kanit", sans-serif;
+  margin-top: 5%;
+}
+.testimonial-btn {
+  background-color: #f4b667;
+  border-radius: 80%;
+}
+/* ++++++++++++++++++++++++++++++++++
             Our Appointment
   +++++++++++++++++++++++++++++++++++*/
-  .appoinment {
-    background-color: #f4b667;
-    width: 100vw;
-    height: 80vh;
-    margin-top: 5%;
-  }
-  .appoinment-heading {
-    padding-top: 2%;
-    font-family: "Kanit", sans-serif;
-    color: #ffffff;
-  }
-  
-  .appoinment-subheading {
-    color: #495057;
-    margin-top: -2%;
-    font-family: "Noto Sans", sans-serif;
-  }
-  .appoinment-subheading:hover {
-    transform: translateY(-10px);
-    transition: all 1s;
-    color: #ffffff;
-  }
-.input-sec{
+.appoinment {
+  background-color: #f4b667;
+  width: 100vw;
+  height: 80vh;
+  margin-top: 5%;
+}
+.appoinment-heading {
+  padding-top: 2%;
+  font-family: "Kanit", sans-serif;
+  color: #ffffff;
+}
+
+.appoinment-subheading {
+  color: #495057;
+  margin-top: -2%;
+  font-family: "Noto Sans", sans-serif;
+}
+.appoinment-subheading:hover {
+  transform: translateY(-10px);
+  transition: all 1s;
+  color: #ffffff;
+}
+.input-sec {
   margin-top: 4%;
 }
-.btn-light{
+.btn-light {
   margin-top: 5%;
   text-align: center;
   margin-left: 43%;
 }
-  /* ++++++++++++++++++++++++++++++++++
+/* ++++++++++++++++++++++++++++++++++
            Footer Section
   +++++++++++++++++++++++++++++++++++*/
-footer{
-    background-color: #f4b667;
-    margin-top: 10%;
-  }
-  .footer-span{
-    color: #ffffff;
-  }
-.footer-hrading{
+footer {
+  background-color: #f4b667;
+  margin-top: 10%;
+}
+.footer-span {
+  color: #ffffff;
+}
+.footer-hrading {
   font-family: "Kanit", sans-serif;
   font-weight: 900;
 }
-.footer-icon{
+.footer-icon {
   margin-left: 2%;
 }
-.icon-cont{
+.icon-cont {
   margin-top: 12%;
 }
-.footer-img{
+.footer-img {
   margin-top: 2%;
   margin-bottom: 2%;
   height: 20vw;
 }
-.footer-subheading{
+.footer-subheading {
   font-family: "Noto Sans", sans-serif;
   font-size: 18px;
   margin-top: 90%;
   color: #ffffff;
 }
-.footer-text{
+.footer-text {
   font-size: 12px;
 }
