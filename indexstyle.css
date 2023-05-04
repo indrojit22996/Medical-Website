@@ -66,9 +66,9 @@ font-family: 'Noto Sans', sans-serif;   for para
 }
 .btn-outline-info:hover {
   border: 2px solid #ffffff;
-  box-shadow: 0px 2px 10px black;
-  background-color: #9d5901;
-  transition: all 2s;
+  box-shadow: 0px 2px 5px black;
+  background-color: #19A7CE;
+  transition: all 1s;
   color: #ffffff;
 }
 .display-1 {
@@ -163,6 +163,12 @@ font-family: 'Noto Sans', sans-serif;   for para
   background-color: #98dfd6;
   margin-bottom: 1%;
 }
+.testimonialpara {
+  margin-top: 2%;
+}
+.testimonial-author{
+  font-size: 24px;
+}
 .comma {
   width: 2%;
 }
@@ -171,6 +177,7 @@ font-family: 'Noto Sans', sans-serif;   for para
   border-top-left-radius: 10%;
   border-bottom-right-radius: 30%;
   margin-top: 10%;
+  margin-bottom: 5%;
 }
 .knowmore-close {
   margin-top: 2%;
