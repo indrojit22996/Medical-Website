@@ -25,3 +25,12 @@ KnowMoreCloseBtn.addEventListener("click", () => {
 // window.addEventListener("click",()=>{
 //   knowMoreContainer.classList.add("know-hidden");
 // })
+let readMore=document.querySelector(".read-btn");
+let readMoreContainer=document.querySelector(".read-more-popup");
+readMore.addEventListener("click",()=>{
+readMoreContainer.classList.remove("readmore-hidden");
+})
+let readMoreCloseBtn=document.querySelector(".readmore-close");
+readMoreCloseBtn.addEventListener("click",()=>{
+  readMoreContainer.classList.add("readmore-hidden");
+})

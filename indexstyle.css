@@ -218,6 +218,7 @@ font-family: 'Noto Sans', sans-serif;   for para
 }
 .service-section {
   margin-top: 5%;
+ 
 }
 .sub-service-section {
   margin-bottom: 3%;
@@ -231,6 +232,24 @@ font-family: 'Noto Sans', sans-serif;   for para
 /* .fa-solid {
   color: #cbe4de;
 } */
+/*++++++++++++++++++++++++++++++++
+    Read popup section 
+++++++++++++++++++++++++++++++++++*/
+.read-more-popup{
+  position: fixed;
+  top: 10%;
+  left: 18%;
+  background-color: #fff;
+  padding: 2%;
+  height: 75vh;
+  width: 65vw;
+  overflow: scroll;
+  z-index: 1;
+}
+.readmore-hidden{
+  display: none;
+}
+
 /* ++++++++++++++++++++++++++++++++++
             Our Deperment
   +++++++++++++++++++++++++++++++++++*/
