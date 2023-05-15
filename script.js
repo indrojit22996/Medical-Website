@@ -34,3 +34,19 @@ let readMoreCloseBtn=document.querySelector(".readmore-close");
 readMoreCloseBtn.addEventListener("click",()=>{
   readMoreContainer.classList.add("readmore-hidden");
 })
+// our Service section See all button function
+let doctorSeeAll=document.querySelector(".depermentSeeall");
+let doctorSeeLess=document.querySelector(".depermentSeeless")
+let seeAllcont=document.querySelector('.deperment-seeall');
+doctorSeeAll.addEventListener('click',seeallFunction)
+function seeallFunction(){
+console.log("Buttom Clicked");
+seeAllcont.classList.remove("deperment-hidden");
+doctorSeeAll.remove();
+
+}
+doctorSeeLess.addEventListener('click',seeLessFunction)
+function seeLessFunction(){
+  seeAllcont.classList.add("deperment-hidden");
+  document.querySelector('.seeallBtn-cont').appendChild(doctorSeeAll);
+}

@@ -308,6 +308,16 @@ font-family: 'Noto Sans', sans-serif;   for para
 .read-btn {
   margin-top: 6%;
 }
+  /* ++++++++++++++++++++++++++++++++++
+              See all
+  ++++++++++++++++++++++++++++++++++++ */
+.deperment-hidden{
+  display:none ;
+}
+.deperment-seeall{
+  margin-top: 2%;
+}
+
 /* ++++++++++++++++++++++++++++++++++
             Our Doctor
   +++++++++++++++++++++++++++++++++++*/
