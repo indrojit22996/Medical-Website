@@ -19,6 +19,7 @@ window.addEventListener(
     requestContainer.classList.add("request-hidden");
     // knowMoreContainer.classList.add("know-hidden");
     readMoreContainer.classList.add("readmore-hidden");
+    dataContainer.classList.add("database-hidden");
   },
   true
 );
@@ -67,3 +68,102 @@ function seeLessFunction() {
 //   }
 // }
 // nothing();
+//
+// creating Data Popup
+let dataDetailsBtn = document.querySelector(".details-btn");
+let dataContainer= document.querySelector(".database-popup");
+dataDetailsBtn.addEventListener("click", () => {
+  dataContainer.classList.remove("database-hidden");
+});
+document.querySelector(".database-close").addEventListener("click", () => {
+  dataContainer.classList.add("database-hidden");
+});
+
+// Network Call
+let appointmentBtn = document.querySelector(".appoinment-btn");
+let url = "e5bc1b5a07c442c9a65287bd62c87063";
+
+// Show Data to A page Function
+function showData(userDetail) {
+  let display = document.querySelector(".display-list");
+  let liEliment = document.createElement("li");
+  liEliment.classList = "container";
+  liEliment.style.marginTop = "2%";
+  liEliment.textContent = JSON.stringify(
+    `Name = ${userDetail.firstName} ${userDetail.lastName}, PhoneNo = ${userDetail.phoneNumber}, Date = ${userDetail.date}, Time = ${userDetail.time}, Address = ${userDetail.addressOne} and ${userDetail.addressTwo}, Depertment Name = ${userDetail.deperment}, Doctor Name = ${userDetail.doctor} `
+  );
+  display.appendChild(liEliment);
+}
+// Page Loading Content Function
+window.addEventListener("DOMContentLoaded", () => {
+  axios
+    .get(`https://crudcrud.com/api/${url}/ApointmentDetail`)
+    .then((response) => {
+      for (let i = 0; i < response.data.length; i++) {
+        showData(response.data[i]);
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+});
+
+// Book appointment Btn function
+
+appointmentBtn.addEventListener("click", () => {
+  console.log("clicked");
+  const firstName = document.querySelector(".firstname-js").value;
+  const lastName = document.querySelector(".lastname-js").value;
+  const phoneNumber = document.querySelector(".phoneno-js").value;
+  const date = document.querySelector(".date-js").value;
+  const time = document.querySelector(".time-js").value;
+  const addressOne = document.querySelector(".addresone-js").value;
+  const addressTwo = document.querySelector(".addrestwo-js").value;
+  const deperment = document.querySelector(".deperment-js");
+  let devermentValue = deperment.options[deperment.selectedIndex].text;
+  const doctor = document.querySelector(".doctor-js");
+  let doctorValue = doctor.options[doctor.selectedIndex].text;
+  // console.log(firstName)
+  // console.log(lastName)
+  // console.log(phoneNumber)
+  // console.log(date)
+  // console.log(time)
+  // console.log(addressOne)
+  // console.log(addressTwo)
+  // console.log(devermentValue)
+  // console.log(doctorValue)
+  // Creating a Object
+  let userDetail = {
+    firstName: firstName,
+    lastName: lastName,
+    phoneNumber: phoneNumber,
+    date: date,
+    time: time,
+    addressOne: addressOne,
+    addressTwo: addressTwo,
+    deperment: devermentValue,
+    doctor: doctorValue,
+  };
+
+  axios
+    .post(`https://crudcrud.com/api/${url}/ApointmentDetail`, userDetail)
+    .then((res) => {
+      alert(
+        `Hi ${res.data.firstName} ${res.data.lastName} your Appioment is seduled ${res.data.date} at ${res.data.time} with Dr. ${res.data.doctor}`
+      );
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
+  // After click button input are empty
+  document.querySelector(".firstname-js").value = "";
+  document.querySelector(".lastname-js").value = "";
+  document.querySelector(".phoneno-js").value = "";
+  document.querySelector(".date-js").value = "";
+  document.querySelector(".time-js").value = "";
+  document.querySelector(".addresone-js").value = "";
+  document.querySelector(".addrestwo-js").value = "";
+  document.querySelector(".deperment-js").value = "Decreationg apartment";
+  document.querySelector(".doctor-js").value = "Doctor";
+});
