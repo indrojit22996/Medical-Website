@@ -81,7 +81,9 @@ document.querySelector(".database-close").addEventListener("click", () => {
 
 // Network Call
 let appointmentBtn = document.querySelector(".appoinment-btn");
-let url = "e5bc1b5a07c442c9a65287bd62c87063";
+let url = "db15ba33edd84652a483cd58805ea80c";
+// show data function for Final list
+
 
 // Show Data to A page Function
 function showData(userDetail) {
@@ -89,10 +91,28 @@ function showData(userDetail) {
   let liEliment = document.createElement("li");
   liEliment.classList = "container";
   liEliment.style.marginTop = "2%";
+  liEliment.id=userDetail._id;
   liEliment.textContent = JSON.stringify(
     `Name = ${userDetail.firstName} ${userDetail.lastName}, PhoneNo = ${userDetail.phoneNumber}, Date = ${userDetail.date}, Time = ${userDetail.time}, Address = ${userDetail.addressOne} and ${userDetail.addressTwo}, Depertment Name = ${userDetail.deperment}, Doctor Name = ${userDetail.doctor} `
   );
+  // creating Accpet Button
+  let accpetBtn=document.createElement("button");
+  accpetBtn.className="btn";
+  accpetBtn.classList.add("btn-success");
+  accpetBtn.textContent="Accpet";
+  accpetBtn.style.marginLeft="2%";
+    // creating Reject Button
+    let rejectBtn=document.createElement("button");
+    rejectBtn.className="btn";
+    rejectBtn.classList.add("btn-danger");
+    rejectBtn.textContent="Reject";
+    rejectBtn.style.marginLeft="2%";
+    // Append Child
+    // liEliment.innerHTML="<hr/>"
+  liEliment.appendChild(accpetBtn);
+  liEliment.appendChild(rejectBtn);
   display.appendChild(liEliment);
+ 
 }
 // Page Loading Content Function
 window.addEventListener("DOMContentLoaded", () => {
@@ -149,8 +169,9 @@ appointmentBtn.addEventListener("click", () => {
     .post(`https://crudcrud.com/api/${url}/ApointmentDetail`, userDetail)
     .then((res) => {
       alert(
-        `Hi ${res.data.firstName} ${res.data.lastName} your Appioment is seduled ${res.data.date} at ${res.data.time} with Dr. ${res.data.doctor}`
+        `Hi ${res.data.firstName} ${res.data.lastName} your Appioment request will send ${res.data.date} at ${res.data.time} with Dr. ${res.data.doctor}`
       );
+      alert(`Plese wait Mr. ${res.data.firstName} ${res.data.lastName}  `)
     })
     .catch((err) => {
       console.log(err);
